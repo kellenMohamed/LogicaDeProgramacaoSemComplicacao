@@ -35,5 +35,9 @@ public class HellowWorld {
         long varLong = 922337206854775806L;
         System.out.println("Long: " + varLong);
 
+        String nome = "Kellen";
+        Integer idade = 35;
+        System.out.println("A estudante " + nome + " tem " + idade + " anos de idade.");
+
     }
 }
