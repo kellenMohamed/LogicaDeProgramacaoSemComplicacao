@@ -25,4 +25,4 @@ public class LeiOhm {
     }
 }
 
-// Desafio: https://www.interviewzen.com/apply/Q8tyM3x
+// Desafio: https://www.interviewzen.com/apply/Q8tM3x
