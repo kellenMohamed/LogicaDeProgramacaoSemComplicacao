@@ -4,13 +4,14 @@ package br.com.ChronosAcademy.LogicaProgramacao;
  */
 public class TabuadaQuatro {
     public static void main(String[] args) {
-        int tabuada = 4;
+        int valor = 4;
+        tabuada(valor);
+    }
 
-        //Primeiro parâmetro é o contador e de onde inicia.
-        //Segundo até quanto deve incrementar.
-        //Terceiro é o incremento. Ex: i++, i+1 ou i+2.
-        for (int i = 10; i > 0; i--) {
-            System.out.println("Valor da tabuada do " + tabuada + " na posição " + tabuada + "x" + i + " é " + (tabuada * i));
-        }
+    // Criando um método:
+    public static void tabuada(int valor){
+            for (int i = 10; i > 0; i--) {
+                System.out.println("Valor da tabuada do " + valor + " na posição " + valor + "x" + i + " é " + (valor * i));
+            }
     }
 }
